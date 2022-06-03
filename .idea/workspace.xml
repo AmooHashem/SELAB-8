@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a426de0d-2c4f-4073-89e4-dc052f763536" name="Changes" comment="add test for abstract factory">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstracFactory/AbstractFlower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstracFactory/AbstractTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstracFactory/Chenar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstracFactory/G1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstracFactory/GardenCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstracFactory/IranianGardenCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstracFactory/J1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstracFactory/JapaneseGardenCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstracFactory/Khatmi.java" afterDir="false" />
+    <list default="true" id="a426de0d-2c4f-4073-89e4-dc052f763536" name="Changes" comment="add codes to pass test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Prototype/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AbstracFactory/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AbstracFactory/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -58,21 +53,36 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Prototype" />
       <recent name="AbstracFactory" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Prototype" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="AbstracFactory" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Prototype" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.checkAbstractFactory">
+  <component name="RunManager" selected="JUnit.All in SELAB-8">
+    <configuration name="All in SELAB-8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SELAB-8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SELAB-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AbstracFactory.*" />
+          <option name="PATTERN" value="Prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +98,7 @@
       <module name="SELAB-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AbstracFactory.*" />
+          <option name="PATTERN" value="Prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,8 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.checkPrototype" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SELAB-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Prototype" />
+      <option name="MAIN_CLASS_NAME" value="Prototype.MainTest" />
+      <option name="METHOD_NAME" value="checkPrototype" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in SELAB-8" />
+        <item itemvalue="JUnit.MainTest.checkPrototype" />
         <item itemvalue="JUnit.MainTest.checkAbstractFactory" />
         <item itemvalue="JUnit.MainTest.add" />
       </list>
@@ -123,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654262315595</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add codes to pass test">
+      <created>1654262951743</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654262951743</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +174,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add test for abstract factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test for abstract factory" />
+    <MESSAGE value="add codes to pass test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add codes to pass test" />
   </component>
 </project>
